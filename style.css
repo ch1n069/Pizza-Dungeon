@@ -6,7 +6,11 @@
 }
 
 body {
-    background-color: rgb(209, 212, 14);
+    background: linear-gradient(304.58deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+}
+
+nav {
+    background: linear-gradient(304.58deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
 }
 
 #dung {
@@ -23,6 +27,11 @@ body {
     font-weight: 600;
     font-size: 115px;
     letter-spacing: -0.035em;
+}
+
+.para-2 {
+    color: #909090;
+    font-family: 'Poppins';
 }
 
 .hero-text .finger-1 {
