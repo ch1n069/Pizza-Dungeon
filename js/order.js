@@ -55,6 +55,16 @@ function order(e) {
 
 
 
+    // ////////////values of the table ////////////
+
+
+    $('#pizzaOrder').html(orderEl + " " + "pizza");
+    $('#toppingsOrder').html(toppingEl + " ");
+    $('#crustOrder').html(crustEL + " ")
+    $('#totalOrder').html(total)
+
+
+
 
     console.log(total);
 }
