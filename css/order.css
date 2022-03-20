@@ -18,4 +18,26 @@ body {
 
 .card1 {
     border-radius: 25px;
+    border: none;
+}
+
+#large {
+    padding: 4%;
+}
+
+#medium {
+    margin-left: 14%;
+}
+
+#toppings {
+    font-family: 'poppins';
+}
+
+select {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #A890FE;
+    color: white;
+    font-family: 'poppins';
+    border: none;
 }
