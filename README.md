@@ -43,6 +43,10 @@
 * JQUERY
 
 
+## License
+
+* [license](license)
+
 
 
 
