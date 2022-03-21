@@ -66,5 +66,39 @@ function order(e) {
 
 
 
+
+
+
+
+
+
+
+
+
+
     console.log(total);
+
+    $(document).ready(function() {
+
+        $('#checkout').on('click', function() {
+            Swal.fire({
+                title: 'Do you want to add delivery fee',
+                showDenyButton: true,
+                showCancelButton: true,
+                confirmButtonText: 'Yes',
+                denyButtonText: `No`,
+            }).then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                if (result.isConfirmed) {
+                    swal.fire('<input></input')
+                    Swal.fire('Order has been recieved', 'your total is ' + total, 'success');
+                } else if (result.isDenied) {
+                    Swal.fire('You can pick up your order at the shop ', 'your total will be ' + total, 'success')
+                }
+            })
+
+
+        })
+
+    })
 }
