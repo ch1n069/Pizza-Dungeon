@@ -127,7 +127,7 @@ function order(e) {
 
         $('#proceed').on('click', function() {
             Swal.fire({
-                title: 'You are about to checkout',
+                title: 'select appropriate fields below',
                 showDenyButton: true,
                 showCancelButton: true,
                 confirmButtonText: 'No delivery',
@@ -137,9 +137,9 @@ function order(e) {
                 if (result.isConfirmed) {
 
 
-                    Swal.fire('Order has been recieved', 'your total is ' + total, 'success');
+                    Swal.fire('Order has been recieved', 'your Grand total is ' + total, 'success');
                 } else if (result.isDenied) {
-                    Swal.fire('order has been recieved ', 'your total is ' + withDelivery, 'success');
+                    Swal.fire('order has been recieved ', 'your  Grand total is ' + withDelivery, 'success');
                 }
 
             })

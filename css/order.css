@@ -35,20 +35,29 @@ body {
 .card1 {
     border-radius: 25px;
     border: none;
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
 }
 
-.delivery {
-    border: 1px solid red;
-    width: 500px;
-    height: 200px;
-    position: fixed;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.card1 h5 {
+    font-size: 20px;
+    font-family: 'poppins';
 }
+
+.vid-text {
+    font-family: 'poppins';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.button1 {
+    background-color: #FF7E00;
+    border-radius: 5px;
+    border: none;
+}
+
+.button1:hover {}
 
 #large {
     padding: 4%;
@@ -67,6 +76,11 @@ select {
     border-radius: 25px;
     background-color: #A890FE;
     color: white;
+    font-family: 'poppins';
+    border: none;
+}
+
+input {
     font-family: 'poppins';
     border: none;
 }
