@@ -59,7 +59,8 @@ function order(e) {
         crustPrice = 90;
     }
     // ///////hides order card
-    $('.card1').hide()
+    $('.card1,.col').hide()
+
 
     $('#an1,#checkout,#table,#proceed').show()
 
