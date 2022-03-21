@@ -33,7 +33,7 @@
 
     <div class="container">
 
-        <div class=" card1 card" style="width: 21rem;">
+        <div class="card1 card" style="width: 21rem;">
             <img src="./images/pizza.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title text-center">Make order here</h4>
@@ -68,7 +68,9 @@
 
                         </select>
 
-                        <input class="mt-3" id="location" type="text" placeholder="delivery location" required="false">
+                        <label class="pt-4" for="">Add delivery at a fee of 200 Kes </label>
+                        <input id="location" type="text" placeholder="Enter location...">
+
 
 
                         <button class="button1 btn btn-success  mt-3 text-center" onclick="order()">Order</button>
@@ -100,6 +102,7 @@
                     <th scope="col">pizza size</th>
                     <th scope="col">Toppings</th>
                     <th scope="col">Crust</th>
+                    <th scope="col">Delivery Area</th>
                     <th scope="col">Total</th>
                 </tr>
             </thead>
@@ -109,6 +112,7 @@
                     <td id="pizzaOrder"></td>
                     <td id="toppingsOrder"></td>
                     <td id="crustOrder"></td>
+                    <td id="deliveryOrder"></td>
                     <td id="totalOrder"></td>
                 </tr>
                 <tr>
@@ -116,7 +120,9 @@
                     <td id="pizzaOrder"></td>
                     <td id="toppingsOrder"></td>
                     <td id="crustOrder"></td>
+                    <td id="deliveryOrder"></td>
                     <td id="totalOrder"></td>
+
                 </tr>
 
 
@@ -126,9 +132,29 @@
 
         </table>
 
-        <button id="checkout" class="btn btn-success btn-lg">Proceed to checkout</button>
+
+
+        <button id="proceed" class="btn btn-primary btn-lg ">Proceed to checkout</button>
+
+        <button id="an1" class="btn btn-warning btn-lg " onclick="window.location.href='order.html'"> Back to order</button>
 
     </div>
+
+
+    <!-- <div class=" delivery1 px-5 ">
+        <h5>Would you like it to add delivery at a fee of 200 ?</h5>
+        <input id="delivery " type="text ">
+
+    </div> -->
+
+
+
+    <!-- <div class="delivery mt-4 text-center mx-5 ">
+        <h5>Would you like to add a delivery fee of 200</h5>
+        <input type="text " placeholder="Enter delivery location ">
+
+
+    </div> -->
 
 
 
@@ -139,18 +165,18 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
     -->
 
 
-    <script src="./js/order.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/order.js "></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11 "></script>
 
 
     <script>

@@ -16,9 +16,38 @@ body {
     font-style: normal;
 }
 
+#table {
+    display: none;
+}
+
+#checkout {
+    display: none;
+}
+
+#proceed {
+    display: none;
+}
+
+#an1 {
+    display: none;
+}
+
 .card1 {
     border-radius: 25px;
     border: none;
+}
+
+.delivery {
+    border: 1px solid red;
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #large {
